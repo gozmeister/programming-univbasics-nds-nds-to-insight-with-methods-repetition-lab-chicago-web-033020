@@ -40,7 +40,7 @@ def total_gross(source)
   index = 0
   each_director = directors_totals(source)
   while index < each_director.length do
-    total += each_director[:names]
+    total += each_director[:name]
     index += 1 
   end
   total 
