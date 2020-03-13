@@ -42,7 +42,7 @@ def total_gross(source)
   director_dollar = directors_totals(source)
   
   while index < list_of_directors(source).length do
-    total += director_dollar[list][index]
+    total += director_dollar[list]
     index += 1 
   end
   total 
